@@ -6,6 +6,7 @@ function App() {
   return (
     <div >
         <p>
+          Expense Item list
           <ExpenseItem></ExpenseItem>
         </p>
     </div>

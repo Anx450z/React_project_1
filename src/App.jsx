@@ -29,7 +29,7 @@ function App() {
     <div >
         <p>
           Expense Item list
-          <Expense expenses = {expenses}></Expense>
+          <Expense items = {expenses}></Expense>
         </p>
     </div>
   );

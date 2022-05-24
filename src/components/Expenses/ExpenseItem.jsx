@@ -9,7 +9,7 @@ const ExpenseItem = (props) => {
   const [title, setTitle]= useState(props.title); //react Hook, starts with use..., return array with 2 values
 
   const clickHandeler = () => {
-    setTitle('Updated');
+    setTitle('Updated'); //use to update the title using one element of useSate
     console.log('Clicked!!');
   };
   
